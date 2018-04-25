@@ -1,0 +1,82 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+/*reset*/
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  margin-top: -75px;
+  filter: grayscale(50%);
+  transition: all 0.5s ease-in-out;
+}
+
+body {
+  background: url(https://i.imgur.com/8d6OdC5.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vw;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+section {
+  text-align: center;
+}
+
+.content {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+.header,
+.main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 125%;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+img:hover {
+  transform: scale(1.15);
+  filter: grayscale(10%);
+}
+
+.story {
+  padding: 15px;
+}
+
+.main {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
